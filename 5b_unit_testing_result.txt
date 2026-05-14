@@ -1,0 +1,16 @@
+# Ejecutando pruebas unitarias de EmotionDetection...
+python3 5a_unit_testing.py
+
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.842s
+
+OK
+
+# Verificación de resultados:
+# - Prueba de Alegría (Joy): PASADA
+# - Prueba de Ira (Anger): PASADA
+# - Prueba de Disgusto (Disgust): PASADA
+# - Prueba de Tristeza (Sadness): PASADA
+# - Prueba de Miedo (Fear): PASADA
+# Estado final: Todas las pruebas unitarias han sido superadas con éxito.
