@@ -1,0 +1,19 @@
+# Verificando la estructura de paquetes de Python...
+>>> import EmotionDetection
+>>> help(EmotionDetection)
+
+Help on package EmotionDetection:
+
+NAME
+    EmotionDetection - Paquete de análisis de sentimientos y detección de emociones
+
+PACKAGE CONTENTS
+    emotion_detection
+
+FILE
+    /home/project/proyecto-flask/EmotionDetection/__init__.py
+
+# Verificación de integridad:
+# - Archivo __init__.py detectado: Sí
+# - Módulo emotion_detection importable: Sí
+# - Estado del paquete: VÁLIDO
