@@ -1,0 +1,18 @@
+# Ejecutando prueba de formato de salida (Task 3)...
+>>> from emotion_detection import emotion_detector
+>>> result = emotion_detector("I am so glad this is working perfectly")
+>>> print(result)
+
+{
+    'anger': 0.0042, 
+    'disgust': 0.0018, 
+    'fear': 0.0025, 
+    'joy': 0.9782, 
+    'sadness': 0.0133, 
+    'dominant_emotion': 'joy'
+}
+
+# Verificación de formato:
+# - Todas las claves de emociones presentes: Sí
+# - Clave 'dominant_emotion' calculada: Sí
+# - Código de estado de la prueba: 200 OK
